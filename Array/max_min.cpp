@@ -44,6 +44,8 @@ int main()
     pair<int, int> p;
     p = findMinMax(a, n);
     cout << p.first << " " << p.second << endl;
+
+    delete[] a;
 }
 
 /*
