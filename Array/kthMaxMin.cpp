@@ -49,6 +49,8 @@ int main()
 
     // output
     cout << p.first << " " << p.second << endl;
+
+    delete[] a;
 }
 
 /*
